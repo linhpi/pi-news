@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pi Network Việt Nam</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Roboto', sans-serif; }
+    body { background: #f5f3ff; color: #333; }
+    header {
+      background: #6d28d9;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      animation: slideDown 1s ease-out;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { color: #fde047; }
+    .banner {
+      background: linear-gradient(to right, #6d28d9, #9333ea);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      animation: fadeIn 1.5s ease-in;
+    }
+    .banner h1 { font-size: 36px; margin-bottom: 15px; }
+    .banner p { font-size: 18px; }
+    .section {
+      max-width: 960px;
+      margin: auto;
+      padding: 50px 20px;
+      animation: fadeInUp 1s ease-in;
+    }
+    .section h2 {
+      color: #6d28d9;
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+    .section p { margin-bottom: 20px; line-height: 1.6; }
+    .faq ul { list-style: disc; padding-left: 20px; }
+    .btn {
+      display: inline-block;
+      background: #6d28d9;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover { background: #5b21b6; }
+    footer {
+      background: #1e1b4b;
+      color: #bbb;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes fadeInUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pi Network Việt Nam</h1>
+    <nav>
+      <a href="#about">Giới thiệu</a>
+      <a href="#how">Cách hoạt động</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Liên hệ</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h1>Tham gia Cuộc Cách mạng Blockchain cùng Pi Network</h1>
+    <p>Đào Pi hoàn toàn miễn phí trên điện thoại – đơn giản, an toàn, không tốn pin</p>
+    <br>
+    <a class="btn" href="https://minepi.com" target="_blank">Tải App Pi Network</a>
+  </section>
+
+  <section id="about" class="section">
+    <h2>Pi Network là gì?</h2>
+    <p>Pi Network là một dự án tiền mã hóa tiên phong cho phép người dùng đào coin ngay trên điện thoại mà không tiêu tốn tài nguyên. Được phát triển bởi nhóm tiến sĩ từ Stanford, Pi Network hướng đến việc xây dựng một hệ sinh thái phi tập trung và thân thiện với người dùng.</p>
+  </section>
+
+  <section id="how" class="section">
+    <h2>Cách hoạt động</h2>
+    <p>Bạn chỉ cần đăng ký, xác minh danh tính (KYC), và mỗi ngày mở ứng dụng một lần để kích hoạt đào Pi. Mạng lưới sẽ thưởng Pi dựa trên mức độ tương tác và số người tham gia mà bạn giới thiệu.</p>
+    <p><strong>Mã giới thiệu:</strong> <code>yourinvitationcode</code></p>
+  </section>
+
+  <section id="faq" class="section faq">
+    <h2>Câu hỏi thường gặp</h2>
+    <ul>
+      <li><strong>Pi có lên sàn chưa?</strong> – Hiện tại đang trong giai đoạn mainnet kín, chờ sàn giao dịch phê duyệt.</li>
+      <li><strong>Pi có miễn phí không?</strong> – Hoàn toàn miễn phí, bạn chỉ cần đăng nhập mỗi ngày một lần.</li>
+      <li><strong>Có cần KYC không?</strong> – Có, để rút Pi trong tương lai bạn cần xác minh danh tính.</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Liên hệ</h2>
+    <p>Tham gia cộng đồng Pi Việt tại:</p>
+    <a class="btn" href="https://zalo.me" target="_blank">Nhóm Zalo</a>
+    <a class="btn" href="https://t.me" target="_blank">Nhóm Telegram</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Pi Network Việt Nam | Website cá nhân chia sẻ kiến thức phi lợi nhuận</p>
+  </footer>
+</body>
+</html>
